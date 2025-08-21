@@ -1,0 +1,10 @@
+body{
+    box-sizing: border-box;
+    margin:0px;
+    background-color: antiquewhite;
+    background-image: url(images/Lasagna.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
