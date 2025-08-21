@@ -1,10 +1,17 @@
 body{
-    box-sizing: border-box;
-    margin:0px;
+    margin: 0px;
     background-color: antiquewhite;
-    background-image: url(images/Lasagna.webp);
-    background-repeat: no-repeat;
-    background-size:cover;
-    
 }
+
+*{
+    box-sizing: border-box;
+}
+
+.navbar{
+    margin: 0px;
+    width: 100%;
+    height:100px;
+    background-color: aliceblue;
+}
+
 
