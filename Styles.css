@@ -1,13 +1,18 @@
 body{
         background-color: white;
         margin:0px;
-         font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
         
 }
 
 *{
     box-sizing: border-box;
-    font-family:h
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h1,h2,h3,
+h4,h5{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 .main{
    
@@ -15,8 +20,9 @@ body{
 
 .navbar{
     margin: 0px;
-    background-color:whitesmoke;
-    padding:20px;
+    background-color:beige;
+    padding:30px;
+    margin-bottom: 30px;
 
 }
 .nav-items{
@@ -32,13 +38,26 @@ body{
     color:rgb(56, 49, 49);
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing:0.5px;
+   
 }
 
 .nav-items a:hover{
-    background-color:aqua;
+    background-color:white;
     border-radius:10px;
 }
 
 .nav-items Logo{
     
+}
+
+.Hero{
+    padding-left:20px;
+    padding-right: 20px;
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    
+}
+.description{
+    width:500px;
 }
