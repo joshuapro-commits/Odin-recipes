@@ -1,108 +1,137 @@
-body{
-        background-color: white;
-        margin:0px;
+    body{
+            background-color: white;
+            margin:0px;
+            font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            
+    }
+
+    *{
+        box-sizing: border-box;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    h1,h2,h3,
+    h4,h5{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    .main{
+    background-color:white;
+    padding:10px
+
+    }
+
+    .navbar{
+        margin: 0px;
+        background-color:white;
+        padding:18px;
+        padding-left:30px;
+        padding-right: 30px;
+        margin-bottom: 0px;
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+    }
+
+    .navbar .logo{
+        color:orange;
         font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        letter-spacing:0.5px;
+        font-family:Impact;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+    
+    }
+
+    .navbar img{
+        height: 45px;
+        width:auto;
+    }
+    .nav-items{
+        margin: 0px;
+        display: flex;
+        gap: 29px;
+
         
-}
 
-*{
-    box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-h1,h2,h3,
-h4,h5{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
 
-}
-.main{
-   background-color:antiquewhite;
-}
-
-.navbar{
-    margin: 0px;
-    background-color:white;
-    padding:18px;
-    padding-left:30px;
-    padding-right: 30px;
-    margin-bottom: 0px;
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
+    .nav-items a{
+        text-decoration:none;
+        color:rgb(56, 49, 49);
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        letter-spacing:0.5px;
     
-   
+    }
 
+    .nav-items a:hover{
+        background-color:white;
+        border-radius:10px;
+        color:orangered
+    }
 
-
-}
-
-.navbar .logo{
-    color:orange;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    letter-spacing:0.5px;
-    font-family:Impact;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-
-   
-}
-
-.navbar img{
-    height: 45px;
-    width:auto;
-}
-.nav-items{
-    margin: 0px;
-    display: flex;
-    gap: 29px;
-
+    /* for Home Page */
+    .Hero{
     
-
-}
-
-.nav-items a{
-    text-decoration:none;
-    color:rgb(56, 49, 49);
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    letter-spacing:0.5px;
-   
-}
-
-.nav-items a:hover{
-    background-color:white;
-    border-radius:10px;
-    color:orangered
-}
-
-
-.Hero{
-   
-    display:flex;
-    flex-direction: column;
-    gap:0px;
-    background-color: white;
-    align-items:center;
-    text-align: center;
+        display:flex;
+        flex-direction: column;
+        gap:0px;
+        background-color: white;
+        align-items:center;
+        text-align: center;
+        
+    }
+    /* for recipe page */
+    .Hero-section{
+        padding:20px;
+        display: flex;
+        justify-content: center;
+        width:auto;
+        gap: 40px;
+    }
+    .Hero-section .description{
+        width:600px;
+    }
+    .Hero-section .description p{
+        font-size: 46px;
     
+    }
+
+    .Hero .description span{
+        font-family: "Lora", Georgia, serif;
+        letter-spacing: 1.3px;
+        
     
-}
-.Hero .description span{
-     font-family: "Lora", Georgia, serif;
-    letter-spacing: 1.3px;
+    }
+    .Hero .image img{
+        height:auto;
+        width:600px
+    }
+    .Hero .description p{
+        font-size: 46px;
+        color:#1d1f1d
     
-   
-}
-.Hero .image img{
-    height:auto;
-    width:600px
-}
-.Hero .description p{
-    font-size: 46px;
-    color:#1d1f1d
-   
-}
-.Hero .description{
-    width:500px;
-    
-}
+    }
+    .Hero .description{
+        width:500px;
+        
+        
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+    }
+
+    .footer .Ingredients{
+        box-shadow: 1px 1px 1px 1px grey;
+        padding: 7px;
+    }
+    .footer .Steps{
+         box-shadow: 1px 1px 1px 1px grey;
+        padding: 7px;
+        
+    }
