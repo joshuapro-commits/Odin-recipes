@@ -12,24 +12,51 @@ body{
 h1,h2,h3,
 h4,h5{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+
 }
 .main{
-   
+   background-color:antiquewhite;
 }
 
 .navbar{
     margin: 0px;
-    background-color:beige;
-    padding:30px;
-    margin-bottom: 30px;
+    background-color:white;
+    padding:18px;
+    padding-left:30px;
+    padding-right: 30px;
+    margin-bottom: 0px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+   
 
+
+
+}
+
+.navbar .logo{
+    color:orange;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing:0.5px;
+    font-family:Impact;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+   
+}
+
+.navbar img{
+    height: 45px;
+    width:auto;
 }
 .nav-items{
     margin: 0px;
     display: flex;
-    gap: 20px;
-    justify-content: flex-end;
+    gap: 29px;
+
+    
 
 }
 
@@ -46,18 +73,28 @@ h4,h5{
     border-radius:10px;
 }
 
-.nav-items Logo{
-    
-}
 
 .Hero{
-    padding-left:20px;
-    padding-right: 20px;
+   
     display:flex;
-    justify-content: center;
-    gap:30px;
+    flex-direction: column;
+    gap:0px;
+    background-color: white;
+    align-items:center;
+    text-align: center;
     
 }
-.description{
+.Hero .description span{
+     font-family: "Lora", Georgia, serif;
+    letter-spacing: 1.7px;
+    
+   
+}
+.Hero .description p{
+    font-size: 46px;
+    color:#1d1f1d
+   
+}
+.Hero .description{
     width:500px;
 }
