@@ -28,6 +28,7 @@ h4,h5{
     display:flex;
     justify-content:space-around;
     align-items:center;
+    
    
 
 
@@ -71,6 +72,7 @@ h4,h5{
 .nav-items a:hover{
     background-color:white;
     border-radius:10px;
+    color:orangered
 }
 
 
@@ -83,12 +85,17 @@ h4,h5{
     align-items:center;
     text-align: center;
     
+    
 }
 .Hero .description span{
      font-family: "Lora", Georgia, serif;
-    letter-spacing: 1.7px;
+    letter-spacing: 1.3px;
     
    
+}
+.Hero .image img{
+    height:auto;
+    width:600px
 }
 .Hero .description p{
     font-size: 46px;
@@ -97,4 +104,5 @@ h4,h5{
 }
 .Hero .description{
     width:500px;
+    
 }
