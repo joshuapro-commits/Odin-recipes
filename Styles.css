@@ -11,8 +11,8 @@
     }
     h1,h2,h3,
     h4,h5{
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+        font-family:'Harman Retro', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
     }
     .main{
     background-color:white;
@@ -116,6 +116,7 @@
     }
     .Hero .description{
         width:500px;
+        color:#5d6063;
         
         
     }
