@@ -18,11 +18,11 @@
 
     .navbar{
         margin: 0px;
-        background-color:white;
+        background-color:beige;
         padding:18px;
         padding-left:30px;
         padding-right: 30px;
-        margin-bottom: 0px;
+        margin-bottom: 40px;
         display:flex;
         justify-content:space-around;
         align-items:center;
@@ -69,14 +69,22 @@
     }
 
     /* for Home Page */
+    .Container{
+        display:flex;
+        justify-content: center;
+       
+    }
     .Hero{
     
         display:flex;
         flex-direction: column;
         gap:0px;
-        background-color:#E9F2F2;
+        background-color:#F3F3F2;
         align-items:center;
         text-align: center;
+        width: 900px;
+        flex-wrap: wrap;
+         border-radius: 90px;
         
     }
     /* for recipe page */
